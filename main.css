@@ -59,13 +59,18 @@ p {
 }
 
 #footer-container {
+	display: grid;
+	grid-template-rows: 100%
 	
 }
 
 #header-container {
+	display: grid;
+	grid-template-rows: 100%;
 
 }
 
 #main-container {
-
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr ;
 }
